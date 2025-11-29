@@ -9,7 +9,16 @@ function Contact() {
       once: true,     // animate only once
     });
   }, []);
-
+    function Send(){
+      let f = document.getElementById("username").value
+      let g = document.getElementById("phonenumber").value
+      let h = document.getElementById("message").value
+      if(f===""|g===""|h===""){
+        alert("Not Success!");
+      }else{
+        alert("Sent Success");
+      }
+    }
   return (
     <div id="contact">
       <hr />
@@ -80,7 +89,7 @@ function Contact() {
                   Your Name <span className="text-sky-400">*</span>
                 </label>
                 <input
-                  id="name"
+                  id="username"
                   className="border border-gray-400 rounded-2xl w-full h-[40px] px-2 mt-2 transform hover:scale-102 shadow-md"
                   type="text"
                   placeholder="John Shon"
@@ -93,7 +102,7 @@ function Contact() {
                   Phone Number <span className="text-sky-400">*</span>
                 </label>
                 <input
-                  id="phone"
+                  id="phonenumber"
                   className="border border-gray-400 rounded-2xl w-full h-[40px] px-2 mt-2 transform hover:scale-102 shadow-md"
                   type="text"
                   placeholder="+(885) 123-456-789"
@@ -131,7 +140,7 @@ function Contact() {
               </div>
 
               {/* Submit Button */}
-              <button className="w-full h-[45px] rounded-2xl text-gray-100 font-bold text-[18px] transform hover:scale-102 shadow-md hover:shadow-gray-600 bg-sky-600 mt-5 flex items-center justify-center gap-2">
+              <button onClick={Send} className="w-full h-[45px] rounded-2xl text-gray-100 font-bold text-[18px] transform hover:scale-102 shadow-md hover:shadow-gray-600 bg-sky-600 mt-5 flex items-center justify-center gap-2">
                 Send Message <i className="fa-solid fa-paper-plane"></i>
               </button>
             </div>

@@ -48,7 +48,7 @@ function PhoneCard({ AddToCard }) {
             </h1>
             <div className="text-center">
               <button
-                onClick={() => AddToCard("ASUS TUF Gaming F18 (2025)")}
+                onClick={() => AddToCard("iPhone 17 Pro Max", 1099,"src/assets/image copy.png")}
                 className="w-64 h-12 mt-5 rounded-3xl bg-sky-400 text-black transform hover:scale-105 transition hover:text-white shadow-md hover:shadow-2xl hover:shadow-gray-600"
               >
                 Add to Cart <i className="fa-solid fa-cart-shopping"></i>
@@ -85,7 +85,7 @@ function PhoneCard({ AddToCard }) {
             </h1>
             <div className="text-center">
               <button
-                onClick={() => AddToCard("ASUS TUF Gaming F18 (2025)")}
+               onClick={() => AddToCard("iPhone 17 Pro Max", 1099,"src/assets/image copy 2.png")}
                 className="w-64 h-12 mt-5 rounded-3xl bg-sky-400 text-black transform hover:scale-105 transition hover:text-white shadow-md hover:shadow-2xl hover:shadow-gray-600"
               >
                 Add to Cart <i className="fa-solid fa-cart-shopping"></i>
@@ -121,7 +121,7 @@ function PhoneCard({ AddToCard }) {
             </h1>
             <div className="text-center">
               <button
-                onClick={() => AddToCard("ASUS TUF Gaming F18 (2025)")}
+               onClick={() => AddToCard("iPhone 17 Pro Max", 1099,"src/assets/image copy 3.png")}
                 className="w-64 h-12 mt-5 rounded-3xl bg-sky-400 text-black transform hover:scale-105 transition hover:text-white shadow-md hover:shadow-2xl hover:shadow-gray-600"
               >
                 Add to Cart <i className="fa-solid fa-cart-shopping"></i>
@@ -156,7 +156,7 @@ function PhoneCard({ AddToCard }) {
             </h1>
             <div className="text-center">
               <button
-                onClick={() => AddToCard("ASUS TUF Gaming F18 (2025)")}
+                onClick={() => AddToCard("iPhone Air", 999,"src/assets/image copy 4.png")}
                 className="w-64 h-12 mt-5 rounded-3xl bg-sky-400 text-black transform hover:scale-105 transition hover:text-white shadow-md hover:shadow-2xl hover:shadow-gray-600"
               >
                 Add to Cart <i className="fa-solid fa-cart-shopping"></i>
@@ -192,7 +192,7 @@ function PhoneCard({ AddToCard }) {
             </h1>
             <div className="text-center">
               <button
-                onClick={() => AddToCard("ASUS TUF Gaming F18 (2025)")}
+                onClick={() => AddToCard("iPhone Air",999,"src/assets/image copy 5.png")}
                 className="w-64 h-12 mt-5 rounded-3xl bg-sky-400 text-black transform hover:scale-105 transition hover:text-white shadow-md hover:shadow-2xl hover:shadow-gray-600"
               >
                 Add to Cart <i className="fa-solid fa-cart-shopping"></i>
@@ -226,7 +226,7 @@ function PhoneCard({ AddToCard }) {
             </h1>
             <div className="text-center">
               <button
-                onClick={() => AddToCard("ASUS TUF Gaming F18 (2025)")}
+                onClick={() => AddToCard("iPhone Air",999,"src/assets/image copy 6.png")}
                 className="w-64 h-12 mt-5 rounded-3xl bg-sky-400 text-black transform hover:scale-105 transition hover:text-white shadow-md hover:shadow-2xl hover:shadow-gray-600"
               >
                 Add to Cart <i className="fa-solid fa-cart-shopping"></i>
@@ -258,7 +258,7 @@ function PhoneCard({ AddToCard }) {
             </h1>
             <div className="text-center">
               <button
-                onClick={() => AddToCard("ASUS TUF Gaming F18 (2025)")}
+                onClick={() => AddToCard("iPhone Air",999,"src/assets/image copy 7.png")}
                 className="w-64 h-12 mt-5 rounded-3xl bg-sky-400 text-black transform hover:scale-105 transition hover:text-white shadow-md hover:shadow-2xl hover:shadow-gray-600"
               >
                 Add to Cart <i className="fa-solid fa-cart-shopping"></i>
@@ -289,7 +289,7 @@ function PhoneCard({ AddToCard }) {
             </h1>
             <div className="text-center">
               <button
-                onClick={() => AddToCard("ASUS TUF Gaming F18 (2025)")}
+                onClick={() => AddToCard("iPhone 17",799,"src/assets/image copy 12.png")}
                 className="w-64 h-12 mt-5 rounded-3xl bg-sky-400 text-black transform hover:scale-105 transition hover:text-white shadow-md hover:shadow-2xl hover:shadow-gray-600"
               >
                 Add to Cart <i className="fa-solid fa-cart-shopping"></i>
@@ -325,7 +325,7 @@ function PhoneCard({ AddToCard }) {
             </h1>
             <div className="text-center">
               <button
-                onClick={() => AddToCard("ASUS TUF Gaming F18 (2025)")}
+                onClick={() => AddToCard("iPhone 17",799,"src/assets/image copy 9.png")}
                 className="w-64 h-12 mt-5 rounded-3xl bg-sky-400 text-black transform hover:scale-105 transition hover:text-white shadow-md hover:shadow-2xl hover:shadow-gray-600"
               >
                 Add to Cart <i className="fa-solid fa-cart-shopping"></i>
@@ -359,7 +359,7 @@ function PhoneCard({ AddToCard }) {
             </h1>
             <div className="text-center">
               <button
-                onClick={() => AddToCard("ASUS TUF Gaming F18 (2025)")}
+                onClick={() => AddToCard("iPhone 17",799,"src/assets/image copy 10.png")}
                 className="w-64 h-12 mt-5 rounded-3xl bg-sky-400 text-black transform hover:scale-105 transition hover:text-white shadow-md hover:shadow-2xl hover:shadow-gray-600"
               >
                 Add to Cart <i className="fa-solid fa-cart-shopping"></i>
@@ -391,7 +391,7 @@ function PhoneCard({ AddToCard }) {
             </h1>
             <div className="text-center">
               <button
-                onClick={() => AddToCard("ASUS TUF Gaming F18 (2025)")}
+               onClick={() => AddToCard("iPhone 17",799,"src/assets/image copy 11.png")}
                 className="w-64 h-12 mt-5 rounded-3xl bg-sky-400 text-black transform hover:scale-105 transition hover:text-white shadow-md hover:shadow-2xl hover:shadow-gray-600"
               >
                 Add to Cart <i className="fa-solid fa-cart-shopping"></i>
@@ -424,7 +424,7 @@ function PhoneCard({ AddToCard }) {
             </h1>
             <div className="text-center">
               <button
-                onClick={() => AddToCard("ASUS TUF Gaming F18 (2025)")}
+                onClick={() => AddToCard("iPhone 17",799,"src/assets/image copy 8.png")}
                 className="w-64 h-12 mt-5 rounded-3xl bg-sky-400 text-black transform hover:scale-105 transition hover:text-white shadow-md hover:shadow-2xl hover:shadow-gray-600"
               >
                 Add to Cart <i className="fa-solid fa-cart-shopping"></i>
@@ -460,7 +460,7 @@ function PhoneCard({ AddToCard }) {
             </h1>
             <div className="text-center">
               <button
-                onClick={() => AddToCard("ASUS TUF Gaming F18 (2025)")}
+               onClick={() => AddToCard("iPhone 17",799,"src/assets/image copy 9.png")}
                 className="w-64 h-12 mt-5 rounded-3xl bg-sky-400 text-black transform hover:scale-105 transition hover:text-white shadow-md hover:shadow-2xl hover:shadow-gray-600"
               >
                 Add to Cart <i className="fa-solid fa-cart-shopping"></i>
@@ -494,7 +494,7 @@ function PhoneCard({ AddToCard }) {
             </h1>
             <div className="text-center">
               <button
-                onClick={() => AddToCard("ASUS TUF Gaming F18 (2025)")}
+                onClick={() => AddToCard("iPhone 17",799,"src/assets/image copy 10.png")}
                 className="w-64 h-12 mt-5 rounded-3xl bg-sky-400 text-black transform hover:scale-105 transition hover:text-white shadow-md hover:shadow-2xl hover:shadow-gray-600"
               >
                 Add to Cart <i className="fa-solid fa-cart-shopping"></i>
@@ -526,7 +526,7 @@ function PhoneCard({ AddToCard }) {
             </h1>
             <div className="text-center">
               <button
-                onClick={() => AddToCard("ASUS TUF Gaming F18 (2025)")}
+               onClick={() => AddToCard("iPhone 17",799,"src/assets/image copy 11.png")}
                 className="w-64 h-12 mt-5 rounded-3xl bg-sky-400 text-black transform hover:scale-105 transition hover:text-white shadow-md hover:shadow-2xl hover:shadow-gray-600"
               >
                 Add to Cart <i className="fa-solid fa-cart-shopping"></i>
@@ -559,7 +559,7 @@ function PhoneCard({ AddToCard }) {
             </h1>
             <div className="text-center">
               <button
-                onClick={() => AddToCard("ASUS TUF Gaming F18 (2025)")}
+                onClick={() => AddToCard("iPhone 17",799,"src/assets/image copy 8.png")}
                 className="w-64 h-12 mt-5 rounded-3xl bg-sky-400 text-black transform hover:scale-105 transition hover:text-white shadow-md hover:shadow-2xl hover:shadow-gray-600"
               >
                 Add to Cart <i className="fa-solid fa-cart-shopping"></i>

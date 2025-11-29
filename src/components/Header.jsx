@@ -35,28 +35,28 @@ function Header({ notification }) {
                   Phone
                 </span>
 
-                <ul className="absolute hidden mt-4 group-hover:block top-7 left-0 bg-sky-400 shadow-lg rounded-md border border-gray-200 py-2 w-32 z-50">
-                  <li className="text-[20px] px-3 py-2 text-black hover:text-white transform hover:scale-110 cursor-pointer">
+                <ul className="absolute hidden mt-0 group-hover:block top-7 left-0 bg-white shadow-lg rounded-md border border-gray-200 py-2 w-32 z-50">
+                  <li className="text-[20px] px-3 py-2 text-black hover:text-sky-400 transform hover:scale-110  cursor-pointer">
                     <a href="#iphone">iPhone</a>
                   </li>
-                  <li className="text-[20px] px-3 py-2 text-black hover:text-white transform hover:scale-110 cursor-pointer">
+                  <li className="text-[20px] px-3 py-2 text-black hover:text-sky-400 transform hover:scale-110 cursor-pointer">
                     <a href="#">More...</a>
                   </li>
                 </ul>
               </li>
               <li className="relative group">
-                <span className=" link text-sky-400 group-hover:text-black group-hover:drop-shadow-none ">
+                <span className=" link group-hover:text-black group-hover:drop-shadow-none  ">
                   Laptop
                 </span>
-                <ul className="absolute hidden mt-4 group-hover:block top-7 left-0 bg-sky-400 shadow-lg rounded-md border border-gray-200 py-2 w-[150px] z-50">
-                  <li className="text-[20px] px-3 py-2 text-black hover:text-white transform hover:scale-110 cursor-pointer">
+                <ul className="absolute hidden mt-0 group-hover:block top-7 left-0 bg-white  shadow-lg rounded-md border border-gray-200 py-2 w-[150px] z-50">
+                  <li className="text-[20px] mt-0 px-3 py-2 text-black hover:text-sky-400 transform hover:scale-110 cursor-pointer">
                     <a href="#tuff">ASUS TUFF</a>
                   </li>
-                  <li className="text-[20px] p-3 py-2 text-black hover:text-white transform hover:scale-110 cursor-pointer">
+                  <li className="text-[20px] p-3 py-2 text-black hover:text-sky-400 transform hover:scale-110 cursor-pointer">
                     <a href="#rog">ROG</a>
                   </li>
-                  <li className="text-[20px] px-3 py-2 text-black hover:text-white transform hover:scale-110 cursor-pointer">
-                    <a href="#mac">Mac</a>
+                  <li className="text-[20px] px-3 py-2 text-black hover:text-sky-400  transform hover:scale-110 cursor-pointer">
+                    <a href="#mac" >Mac</a>
                   </li>
                 </ul>
               </li>
@@ -136,7 +136,7 @@ function Header({ notification }) {
         {/* Search bar (desktop only) */}
         <div className="relative hidden md:flex w-full max-w-md mx-auto">
           <input
-            type="text"
+            type="Search"
             placeholder="Search computer..."
             className="w-full px-4 py-2 pr-16 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-sky-500"
           />

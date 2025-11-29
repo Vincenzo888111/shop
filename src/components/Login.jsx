@@ -1,6 +1,17 @@
 import React from "react";  
 
 function Login() {
+  function Signin() {
+    const a = document.getElementById("Email").value;
+    const b = document.getElementById("Password").value;
+
+    if (a === "" || b === "") {
+      alert("Not Success");
+    } else {
+      alert("Have Information to Success");
+    }
+  }   // <-- ❗ THIS BRACKET WAS MISSING
+
   return (
     <div className="flex min-h-screen pt-[100px] flex-col md:flex-row">
       {/* Left side (sky blue) */}
@@ -21,10 +32,12 @@ function Login() {
           <input
             type="email"
             placeholder="Email"
+            id="Email"
             className="w-full border p-2 mb-6 rounded"
           />
           <input
             type="password"
+            id="Password"
             placeholder="Password"
             className="w-full border p-2 mb-3 rounded"
           />
@@ -45,7 +58,7 @@ function Login() {
             </a>
           </div>
 
-          <button className="w-full bg-sky-500 text-white p-2 rounded hover:bg-sky-600 transform hover:scale-102 shadow-lg transition duration-300">
+          <button onClick={Signin} className="w-full bg-sky-500 text-white p-2 rounded hover:bg-sky-600 transform hover:scale-102 shadow-lg transition duration-300">
             Sign In
           </button>
 
@@ -57,8 +70,8 @@ function Login() {
               <i className="fa-brands fa-google mr-2"></i>Google
             </button>
           </div>
-           <h1 className="text-gray-400 text-center my-5">Don't have an account? <a href="/register" className="text-gray-600">Create an Account</a></h1>
-            <div className="flex justify-center gap-3 mt-5">
+          <h1 className="text-gray-400 text-center my-5">Don't have an account? <a href="/register" className="text-gray-600">Create an Account</a></h1>
+          <div className="flex justify-center gap-3 mt-5">
             <a href="#" className="facebook ">
               <i className="fa-brands fa-facebook text-4xl text-sky-700 "></i>
             </a>

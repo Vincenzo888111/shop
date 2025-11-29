@@ -1,206 +1,97 @@
-import { Link } from "react-router-dom";
-import React, { useState } from "react";
+import { useState } from "react";
 
-function Payment() {
-  const [counter, setCount] = useState(0);
-  const [counter2, setCount2] = useState(0);
-  const [counter3, setCount3] = useState(0);
+function Payment({ cart = [] }) {
+  // Track quantities for each item
+  const [quantities, setQuantities] = useState(
+    cart.reduce((acc, item) => {
+      acc[item.id] = 1; // default quantity 1
+      return acc;
+    }, {})
+  );
+
+  // Change quantity
+  const changeQty = (id, delta) => {
+    setQuantities((prev) => ({
+      ...prev,
+      [id]: Math.max((prev[id] || 1) + delta, 0),
+    }));
+  };
+
+  // Calculate subtotal and total
+  const subtotal = cart.reduce(
+    (sum, item) => sum + item.price * (quantities[item.id] || 1),
+    0
+  );
+  const shipping = 2;
+  const total = subtotal + shipping;
+
   return (
-    <div className="flex justify-between w-full h-[720px] bg-white ">
-      <div className="container-pay-left mt-[100px] p-10">
-        <h1 className="text-black text-4xl font-semibold ">Your Cart</h1>
-        <div className="flex-row bg-gray-100 w-[500px] h-[430px] shadow-md mt-5 rounded-2xl px-5">
-          <div className="flex justify-between">
-            <div className="flex-row">
-              <div className="flex items-center pl-3 w-full h-[130px]  ">
-                <img
-                  src="src/assets/image copy 2.png"
-                  alt=""
-                  className="w-[100px] h-[100px]"
+    <div className="p-5 mt-20">
+      <h1 className="text-4xl text-center font-bold mb-6">Payment</h1>
+
+      <div className="grid md:grid-cols-2 sm:grid-cols-1 gap-10 ">
+        {/* Cart Items */}
+        <div className="w-full border border-sky-400 rounded-2xl p-5 shadow-md shadow-sky-300">
+          <h2 className="text-center font-bold text-2xl mb-4"><i className="fa-solid fa-cart-shopping text-sky-400 text-4xl"></i>Shopping Cart<i class="fa-regular fa-heart text-sky-400 text-4xl "></i></h2>
+          {cart.length === 0 ? (
+            <p>Your cart is empty</p>
+          ) : (
+            cart.map((item) => (
+              <div
+                key={item.id}
+                className="flex justify-between items-center gap-4 border-b py-5"
+              >
+                <div>
+                  <img
+                  src={item.img}
+                  className="w-none h-35 rounded"
                 />
-                <div className="flex-row px-2">
-                  <p className="text-sm font-semibold">iPhone 17 pro max</p>
-                  <p className="text-sm font-bold ">$1,099</p>
                 </div>
-              </div>{" "}
-            </div>
-            <div className="py-3">
-              <i class="fa-solid fa-trash text-red-500 pb-10 pl-20"></i>
+                <div>
+                  <p>{item.name}</p>
+                  <p className="text-sky-400 font-bold">${item.price * (quantities[item.id] || 1)}</p>
 
-              <div className="w-[100px] h-[35px] border border-gray-300 flex justify-center items-center rounded-md">
-                <div className="flex items-center justify-between w-full px-3">
-                  <button
-                    onClick={() => setCount(counter > 0 ? counter - 1 : 0)}
-                    className="text-black text-xl font-bold hover:text-gray-600"
-                  >
-                    −
-                  </button>
-
-                  <p className="text-[15px] font-medium">{counter}</p>
-
-                  <button
-                    onClick={() => setCount(counter + 1)}
-                    className="text-black text-xl font-bold hover:text-gray-600"
-                  >
-                    +
-                  </button>
+                  {/* Counter */}
+                  <div className="flex justify-end items-center gap-2 mt-1">
+                    <button
+                      onClick={() => changeQty(item.id, -1)}
+                      className="bg-black text-white px-2 rounded"
+                    >
+                      -
+                    </button>
+                    <span>{quantities[item.id]}</span>
+                    <button
+                      onClick={() => changeQty(item.id, 1)}
+                      className="bg-sky-500 text-white px-2 rounded"
+                    >
+                      +
+                    </button>
+                  </div>
                 </div>
               </div>
-            </div>
-          </div>
-          <hr className="text-gray-400 px-5" />
-          <div className="flex justify-between">
-            <div className="flex-row">
-              <div className="flex items-center pl-3 w-full h-[150px]  ">
-                <img
-                  src="src/assets/image copy.png"
-                  alt=""
-                  className="w-[100px] h-[100px]"
-                />
-                <div className="flex-row px-2">
-                  <p className="text-sm font-semibold">iPhone 17 pro max</p>
-                  <p className="text-sm  font-bold ">$1,099</p>
-                </div>
-              </div>{" "}
-            </div>
-            <div className="pt-8">
-              <i class="fa-solid fa-trash text-red-500 pb-10 pl-20"></i>
-              <div className="w-[100px] h-[35px] border border-gray-300 flex justify-center items-center rounded-md">
-                <div className="flex items-center justify-between w-full px-3">
-                  <button
-                    onClick={() => setCount2(counter2 > 0 ? counter2 - 1 : 0)}
-                    className="text-black text-xl font-bold hover:text-gray-600"
-                  >
-                    −
-                  </button>
-
-                  <p className="text-[15px] font-medium">{counter2}</p>
-
-                  <button
-                    onClick={() => setCount2(counter2 + 1)}
-                    className="text-black text-xl font-bold hover:text-gray-600"
-                  >
-                    +
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-          <hr className="text-gray-400 px-5" />
-          <div className="flex justify-between">
-            <div className="flex-row">
-              <div className="flex items-center pl-3 w-full h-[130px]  ">
-                <img
-                  src="src/assets/image copy 3.png"
-                  alt=""
-                  className="w-[100px] h-[100px]"
-                />
-                <div className="flex-row px-2">
-                  <p className="text-sm font-semibold">iPhone 17 pro max</p>
-                  <p className="text-sm  font-bold ">$1,099</p>
-                </div>
-              </div>{" "}
-            </div>
-            <div className="py-5">
-              <i class="fa-solid fa-trash text-red-500 pb-10 pl-20"></i>
-
-              <div className="w-[100px] h-[35px] border border-gray-300 flex justify-center items-center rounded-md">
-                <div className="flex items-center justify-between w-full px-3">
-                  <button
-                    onClick={() => setCount3(counter3 > 0 ? counter3 - 1 : 0)}
-                    className="text-black text-xl font-bold hover:text-gray-600"
-                  >
-                    −
-                  </button>
-
-                  <p className="text-[15px] font-medium">{counter3}</p>
-
-                  <button
-                    onClick={() => setCount3(counter3 + 1)}
-                    className="text-black text-xl font-bold hover:text-gray-600"
-                  >
-                    +
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
+            ))
+          )}
         </div>
-        
-      </div>
-      <div className="container-pay-right flex-row w-[50%] mt-[100px] px-5">
-        <h1 className="text-4xl text-black font-bold p-10 ">Payment Detail</h1>
-        <label htmlFor="" className="text-gray-400">
-          Card Holder name
-        </label>
-        <div className="relative w-[600px] pt-2 pb-5">
-          <input
-            type="text"
-            placeholder="Enter name"
-            className="w-full border border-gray-300 text-black p-2 pr-10 rounded bg-transparent"
-          />
-          <i className="fa-solid fa-user-pen text-gray-400 absolute right-3 top-7 -translate-y-1/2"></i>
-        </div>
-        <label htmlFor="" className="text-gray-400">
-          Card Number
-        </label>
-        <div className="relative w-[600px] pt-2">
-          <input
-            type="text"
-            placeholder="xxx xxx xxx"
-            className="w-full border border-gray-300 text-black p-2 pr-10 rounded bg-transparent"
-          />
-        </div>
-        <div className="flex gap-5 mt-5">
-          <div>
-            <label htmlFor="" className="text-gray-400">
-              Expiry Date
-            </label>
-            <div className="relative w-[290px] pt-2">
-              <input
-                type="text"
-                placeholder="xxx xxx xxx"
-                className="w-full border border-gray-300 text-black p-2 pr-10 rounded bg-transparent"
-              />
-            </div>
-          </div>
 
-          <div>
-            <label htmlFor="" className="text-gray-400">
-              Expiry Date
-            </label>
-            <div className="relative w-[290px] pt-2">
-              <input
-                type="text"
-                placeholder="xxx xxx xxx"
-                className="w-full border border-gray-300 text-black p-2 pr-10 rounded bg-transparent"
-              />
-            </div>
+        {/* Payment Summary */}
+        <div className="md:w-full sm:full h-[400px] border border-sky-400 shadow-md shadow-sky-300 rounded-2xl p-5 mb-20">
+          <h2 className="text-2xl text-center font-bold mb-2"><i class="fa-brands fa-cc-mastercard text-sky-400 text-4xl"></i>Cart Summary<i class="fa-regular fa-heart text-sky-400 text-4xl"></i></h2>
+          <div className="flex justify-between my-5">
+            <p className="font-bold">Subtotal:</p>
+            <p className="text-sky-400 pl-3 font-bold">${subtotal}</p>
           </div>
-        </div>
-        <div className=" w-[600px] pt-6">
-          <div className="flex justify-between text-gray-700 text-sm mb-2">
-            <p>Subtotal</p>
-            <p>$3,297</p>
+          <div className="flex justify-between my-5">
+            <p className="font-bold">Shipping:</p>
+            <p className="text-sky-400 pl-3 font-bold">${shipping}</p>
+          </div><hr />
+          <div className="flex justify-between mt-5">
+            <p className="font-bold">Total Cost:</p>
+          <p className="text-sky-400 pl-3 font-bold">${total}</p>
           </div>
-          <div className="flex justify-between text-gray-700 text-sm mb-2">
-            <p>Shipping</p>
-            <p>$15</p>
-          </div>
-          <hr className="my-2" />
-          <div className="flex justify-between font-semibold text-black text-lg">
-            <p>Total</p>
-            <p>$3,312</p>
-          </div>
-
-          <button className="mt-6 w-full bg-blue-600 text-white font-semibold py-2 rounded-lg hover:bg-blue-700 transition">
-            Proceed to Payment
-          </button>
-        </div>
-        <div className="flex justify-center pr-30 gap-5 mt-5">
-          <img src="src/assets/image copy 50.png" alt="" className="w-[60px] h-[40px]"/>
-          <img src="src/assets/image copy 48.png" alt="" className="w-[60px] h-[40px]"/>
-          <img src="src/assets/image copy 51.png" alt="" className="w-[60px] h-[40px]"/>
+         <button class="mt-6 w-full bg-sky-500 hover:bg-sky-600 text-white font-medium py-3 rounded-lg shadow-md hover:shadow-lg transition duration-200">
+            Complete Purchase
+        </button>
+         <p class="text-center text-gray-500 text-sm mt-4">🔒 Secure Payment. Your information is encrypted.</p>
         </div>
       </div>
     </div>
