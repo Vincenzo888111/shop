@@ -20,7 +20,7 @@ function Accesories({ AddToCard }) {
           <h1>
             {" "}
             <span className="text-sky-400">
-              <i class="fa-solid fa-circle-chevron-down"></i>
+              <i className="fa-solid fa-circle-chevron-down"></i>
             </span>{" "}
             Essentail Computer <span className="text-sky-400">Accesories</span>{" "}
           </h1>
@@ -31,7 +31,7 @@ function Accesories({ AddToCard }) {
         <div className="flex justify-between">
           <div className="mt-5 pl-1">
             {/* Select menu */}
-            <i class="fa-solid fa-filter text-sky-400 pr-2"></i>
+            <i className="fa-solid fa-filter text-sky-400 pr-2"></i>
             <label htmlFor="menu" className="font-bold pr-2">
               Category :{" "}
             </label>
@@ -66,7 +66,7 @@ function Accesories({ AddToCard }) {
           </div>
           <div className="mt-5 px-10">
             <label htmlFor="sortby" className="font-bold pr-2">
-              <i class="fa-solid fa-arrow-down-wide-short font-bold text-sky-400 pr-6"></i>
+              <i className="fa-solid fa-arrow-down-wide-short font-bold text-sky-400 pr-6"></i>
               Sort by:
             </label>
             <select

@@ -243,7 +243,7 @@ function Laptop({ AddToCard }) {
                   onClick={() => AddToCard("ASUS TUF Gaming F15 (2022)",1299,"public/assets/image copy 23.png")}
                 className="w-64 h-12 mt-5 rounded-3xl bg-sky-400 text-black  transform hover:scale-105 transition hover:text-white shadow-md  hover:shadow-2xl hover:shadow-gray-600"
               >
-                Add to Cart <i class="fa-solid fa-cart-shopping"></i>
+                Add to Cart <i className="fa-solid fa-cart-shopping"></i>
               </button>
             </div>
           </div>
@@ -294,7 +294,7 @@ function Laptop({ AddToCard }) {
                   onClick={() => AddToCard("ROG Strix SCAR 18 (2025)",2699,"public/assets/image copy 36.png")}
                 className="w-64 h-12 mt-5 rounded-3xl bg-sky-400 text-black  transform hover:scale-105 transition hover:text-white shadow-md  hover:shadow-2xl hover:shadow-gray-600"
               >
-                Add to Cart <i class="fa-solid fa-cart-shopping"></i>
+                Add to Cart <i className="fa-solid fa-cart-shopping"></i>
               </button>
             </div>
           </div>
@@ -353,7 +353,7 @@ function Laptop({ AddToCard }) {
                   onClick={() => AddToCard("ROG Flow Z13 (2025)",2099,"public/assets/image copy 38.png")}
                 className="w-64 h-12 mt-5 rounded-3xl bg-sky-400 text-black  transform hover:scale-105 transition hover:text-white shadow-md  hover:shadow-2xl hover:shadow-gray-600"
               >
-                Add to Cart <i class="fa-solid fa-cart-shopping"></i>
+                Add to Cart <i className="fa-solid fa-cart-shopping"></i>
               </button>
             </div>
           </div>
@@ -383,7 +383,7 @@ function Laptop({ AddToCard }) {
                   onClick={() => AddToCard("ROG Zephyrus G16 (2025) GU605",2799,"public/assets/image copy 39.png")}
                 className="w-64 h-12 mt-5 rounded-3xl bg-sky-400 text-black  transform hover:scale-105 transition hover:text-white shadow-md  hover:shadow-2xl hover:shadow-gray-600"
               >
-                Add to Cart <i class="fa-solid fa-cart-shopping"></i>
+                Add to Cart <i className="fa-solid fa-cart-shopping"></i>
               </button>
             </div>
           </div>
@@ -417,7 +417,7 @@ function Laptop({ AddToCard }) {
                   onClick={() => AddToCard("ROG Strix G16 (2025) G615",1299,"public/assets/image copy 36.png")}
                 className="w-64 h-12 mt-5 rounded-3xl bg-sky-400 text-black  transform hover:scale-105 transition hover:text-white shadow-md  hover:shadow-2xl hover:shadow-gray-600"
               >
-                Add to Cart <i class="fa-solid fa-cart-shopping"></i>
+                Add to Cart <i className="fa-solid fa-cart-shopping"></i>
               </button>
             </div>
           </div>
@@ -447,7 +447,7 @@ function Laptop({ AddToCard }) {
                   onClick={() => AddToCard("ROG Strix G16 (2025) G615",1299,"public/assets/image copy 36.png")}
                 className="w-64 h-12 mt-5 rounded-3xl bg-sky-400 text-black  transform hover:scale-105 transition hover:text-white shadow-md  hover:shadow-2xl hover:shadow-gray-600"
               >
-                Add to Cart <i class="fa-solid fa-cart-shopping"></i>
+                Add to Cart <i className="fa-solid fa-cart-shopping"></i>
               </button>
             </div>
           </div>
@@ -477,7 +477,7 @@ function Laptop({ AddToCard }) {
                   onClick={() => AddToCard("ROG Strix G16 (2025) G615",1299,"public/assets/image copy 36.png")}
                 className="w-64 h-12 mt-5 rounded-3xl bg-sky-400 text-black  transform hover:scale-105 transition hover:text-white shadow-md  hover:shadow-2xl hover:shadow-gray-600"
               >
-                Add to Cart <i class="fa-solid fa-cart-shopping"></i>
+                Add to Cart <i className="fa-solid fa-cart-shopping"></i>
               </button>
             </div>
           </div>
@@ -507,7 +507,7 @@ function Laptop({ AddToCard }) {
                   onClick={() => AddToCard("ROG Strix G16 (2025) G615",1299,"public/assets/image copy 36[tx].png")}
                 className="w-64 h-12 mt-5 rounded-3xl bg-sky-400 text-black  transform hover:scale-105 transition hover:text-white shadow-md  hover:shadow-2xl hover:shadow-gray-600"
               >
-                Add to Cart <i class="fa-solid fa-cart-shopping"></i>
+                Add to Cart <i className="fa-solid fa-cart-shopping"></i>
               </button>
             </div>
           </div>
@@ -553,7 +553,7 @@ function Laptop({ AddToCard }) {
                   onClick={() => AddToCard(" MacBook Air (2025)Sky Blue",1399,"public/assets/image copy 23.png")}
                 className="w-64 h-12 mt-5 rounded-3xl bg-sky-400 text-black  transform hover:scale-105 transition hover:text-white shadow-md  hover:shadow-2xl hover:shadow-gray-600"
               >
-                Add to Cart <i class="fa-solid fa-cart-shopping"></i>
+                Add to Cart <i className="fa-solid fa-cart-shopping"></i>
               </button>
             </div>
           </div>
@@ -581,7 +581,7 @@ function Laptop({ AddToCard }) {
                  onClick={() => AddToCard("MacBook Air (2025) Silver",1399,"public/assets/image copy 24.png")}
                 className="w-64 h-12 mt-5 rounded-3xl bg-sky-400 text-black  transform hover:scale-105 transition hover:text-white shadow-md  hover:shadow-2xl hover:shadow-gray-600"
               >
-                Add to Cart <i class="fa-solid fa-cart-shopping"></i>
+                Add to Cart <i className="fa-solid fa-cart-shopping"></i>
               </button>
             </div>
           </div>
@@ -609,7 +609,7 @@ function Laptop({ AddToCard }) {
                   onClick={() => AddToCard(" MacBook Air (2025) Starlight",1399,"public/assets/image copy 25.png")}
                 className="w-64 h-12 mt-5 rounded-3xl bg-sky-400 text-black  transform hover:scale-105 transition hover:text-white shadow-md  hover:shadow-2xl hover:shadow-gray-600"
               >
-                Add to Cart <i class="fa-solid fa-cart-shopping"></i>
+                Add to Cart <i className="fa-solid fa-cart-shopping"></i>
               </button>
             </div>
           </div>
@@ -637,7 +637,7 @@ function Laptop({ AddToCard }) {
                   onClick={() => AddToCard(" MacBook Air (2025) Black",1399,"public/assets/image copy 26.png")}
                 className="w-64 h-12 mt-5 rounded-3xl bg-sky-400 text-black  transform hover:scale-105 transition hover:text-white shadow-md  hover:shadow-2xl hover:shadow-gray-600"
               >
-                Add to Cart <i class="fa-solid fa-cart-shopping"></i>
+                Add to Cart <i className="fa-solid fa-cart-shopping"></i>
               </button>
             </div>
           </div>
@@ -669,7 +669,7 @@ function Laptop({ AddToCard }) {
                   onClick={() => AddToCard(" MacBook Air (2025)Sky Blue",1399,"public/assets/image copy 23.png")}
                 className="w-64 h-12 mt-5 rounded-3xl bg-sky-400 text-black  transform hover:scale-105 transition hover:text-white shadow-md  hover:shadow-2xl hover:shadow-gray-600"
               >
-                Add to Cart <i class="fa-solid fa-cart-shopping"></i>
+                Add to Cart <i className="fa-solid fa-cart-shopping"></i>
               </button>
             </div>
           </div>
@@ -697,7 +697,7 @@ function Laptop({ AddToCard }) {
                   onClick={() => AddToCard("MacBook Air (2025) Silver",1399,"public/assets/image copy 24.png")}
                 className="w-64 h-12 mt-5 rounded-3xl bg-sky-400 text-black  transform hover:scale-105 transition hover:text-white shadow-md  hover:shadow-2xl hover:shadow-gray-600"
               >
-                Add to Cart <i class="fa-solid fa-cart-shopping"></i>
+                Add to Cart <i className="fa-solid fa-cart-shopping"></i>
               </button>
             </div>
           </div>
@@ -725,7 +725,7 @@ function Laptop({ AddToCard }) {
                   onClick={() => AddToCard("MacBook Air (2025) Starlight",1399,"public/assets/image copy 25.png")}
                 className="w-64 h-12 mt-5 rounded-3xl bg-sky-400 text-black  transform hover:scale-105 transition hover:text-white shadow-md  hover:shadow-2xl hover:shadow-gray-600"
               >
-                Add to Cart <i class="fa-solid fa-cart-shopping"></i>
+                Add to Cart <i className="fa-solid fa-cart-shopping"></i>
               </button>
             </div>
           </div>
@@ -753,7 +753,7 @@ function Laptop({ AddToCard }) {
                  onClick={() => AddToCard("MacBook Air (2025) Black",1199,"public/assets/image copy 26.png")}
                 className="w-64 h-12 mt-5 rounded-3xl bg-sky-400 text-black  transform hover:scale-105 transition hover:text-white shadow-md  hover:shadow-2xl hover:shadow-gray-600"
               >
-                Add to Cart <i class="fa-solid fa-cart-shopping"></i>
+                Add to Cart <i className="fa-solid fa-cart-shopping"></i>
               </button>
             </div>
           </div>

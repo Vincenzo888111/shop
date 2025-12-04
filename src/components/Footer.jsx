@@ -29,7 +29,7 @@ function Footer() {
               ផ្ទះលេខ298Eo,មហាវីថី ម៉ៅសេងទុង (St.245) ខាងលិចចេនឡាផ្សារដើមគរ
             </a>
             <ul className="text-gray-400 ">
-              <li><a href="#" className="hover:text-sky-400"><i class="fa-solid fa-phone pr-5"></i>Smart: 087 77 49 11</a></li>
+              <li><a href="#" className="hover:text-sky-400"><i className="fa-solid fa-phone pr-5"></i>Smart: 087 77 49 11</a></li>
               <li><a href="#"className="pl-5 hover:text-sky-400"> Cellcard: 012 77 49 11</a></li>
               <li><a href="#"className="pl-5 hover:text-sky-400"> Metfone: 097 77 49 11</a></li>
             </ul>
@@ -46,7 +46,7 @@ function Footer() {
               ផ្ទះលេខ 598 g/ 271 (ក្បែរ KTV Royal & KTV Lavegas)
             </a>
             <ul className="text-gray-400 ">
-              <li><a href="#" className="hover:text-sky-400"><i class="fa-solid fa-phone pr-5"></i>Smart: 087 77 49 11</a></li>
+              <li><a href="#" className="hover:text-sky-400"><i className="fa-solid fa-phone pr-5"></i>Smart: 087 77 49 11</a></li>
               <li><a href="#"className="pl-5 hover:text-sky-400"> Cellcard: 012 77 49 11</a></li>
               <li><a href="#"className="pl-5 hover:text-sky-400"> Metfone: 097 77 49 11</a></li>
             </ul>
@@ -65,7 +65,7 @@ function Footer() {
               ផ្ទះលេខ 66Eo, មហាវីថី ម៉ៅសេងទុង (St. 215)
             </a>
             <ul className="text-gray-400 ">
-              <li><a href="#" className="hover:text-sky-400"><i class="fa-solid fa-phone pr-5"></i>Smart: 087 77 49 11</a></li>
+              <li><a href="#" className="hover:text-sky-400"><i className="fa-solid fa-phone pr-5"></i>Smart: 087 77 49 11</a></li>
               <li><a href="#"className="pl-5 hover:text-sky-400"> Cellcard: 012 77 49 11</a></li>
               <li><a href="#"className="pl-5 hover:text-sky-400"> Metfone: 097 77 49 11</a></li>
             </ul>
@@ -76,7 +76,7 @@ function Footer() {
               <li><a href="#" className="text-gray-300 hover:text-sky-400"><i className="fa-brands fa-facebook-messenger pr-7"></i>Chat On Messenger</a></li>
               <li><a href="#" className="text-gray-300 hover:text-sky-400"><i className="fa-brands fa-telegram pr-7"></i>Chat On Telegram</a></li>
               <li><a href="#" className="text-gray-300 hover:text-sky-400"><i className="fa-brands fa-instagram pr-7"></i>Chat On Instagram</a></li>
-              <li><a href="#" className="text-gray-300 hover:text-sky-400"><i class="fa-brands fa-x-twitter pr-7"></i>Chat On X</a></li>
+              <li><a href="#" className="text-gray-300 hover:text-sky-400"><i className="fa-brands fa-x-twitter pr-7"></i>Chat On X</a></li>
               <li><a href="#">Follow Tik Tok</a></li>
             </ul>
           </div>
@@ -92,7 +92,7 @@ function Footer() {
           </div>
         </div>
         <div className="text-gray-400 pt-10 pb-2 px-100 "><hr /></div>
-        <p className="text-[15px] text-gray-300 text-center">Copyright © 2024 Computer Shop | Website by Developer <span className="text-sky-300"> Vincenzo<i class="fa-solid fa-face-grin-hearts"></i></span> </p>
+        <p className="text-[15px] text-gray-300 text-center">Copyright © 2024 Computer Shop | Website by Developer <span className="text-sky-300"> Vincenzo<i className="fa-solid fa-face-grin-hearts"></i></span> </p>
       </div>
     </div>
   );
