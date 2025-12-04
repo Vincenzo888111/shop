@@ -3,9 +3,9 @@ import React from "react";
 function Desktops({ AddToCard }) {
   return (
     <div id="desktop" className="w-full px-[20px]">
-      <p className="mx-5">
+      <div className="mx-5">
         <hr />
-      </p>
+      </div>
             <div className="w-full h-[100px] mt-25 px-5">
         <hr />
         <h1 className="text-black font-bold text-4xl ">Desktops Shop</h1>
@@ -21,7 +21,7 @@ function Desktops({ AddToCard }) {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10">
           <div className="w-[340px] h-[500px] flex-col justify-between transform hover:scale-105  transition   bg-white rounded-2xl shadow-md shadow-gray-500 my-10">
             <img
-              src="src/assets/image copy 27.png"
+              src="public/assets/image copy 27.png"
               className=" m-auto py-5 w-[200px]"
               alt=""
             />
@@ -40,7 +40,7 @@ function Desktops({ AddToCard }) {
             </h1>
             <div className="text-center">
               <button
-                onClick={() => AddToCard("iMac (2025)Blue",1299,"src/assets/image copy 27.png")}
+                onClick={() => AddToCard("iMac (2025)Blue",1299,"public/assets/image copy 27.png")}
                 className="w-64 h-12 mt-5 rounded-3xl bg-sky-400 text-black  transform hover:scale-105 transition hover:text-white shadow-md  hover:shadow-2xl hover:shadow-gray-600"
               >
                 Add to Cart <i class="fa-solid fa-cart-shopping"></i>
@@ -49,7 +49,7 @@ function Desktops({ AddToCard }) {
           </div>
           <div className="w-[340px] h-[500px] flex-col justify-between transform hover:scale-105  transition   bg-white rounded-2xl shadow-md shadow-gray-500 my-10">
             <img
-              src="src/assets/image copy 28.png"
+              src="public/assets/image copy 28.png"
               className=" m-auto py-5 w-[200px]"
               alt=""
             />
@@ -66,7 +66,7 @@ function Desktops({ AddToCard }) {
             </h1>
             <div className="text-center">
               <button
-                 onClick={() => AddToCard("iMac (2025)Purple",1299,"src/assets/image copy 28.png")}
+                 onClick={() => AddToCard("iMac (2025)Purple",1299,"public/assets/image copy 28.png")}
                 className="w-64 h-12 mt-5 rounded-3xl bg-sky-400 text-black  transform hover:scale-105 transition hover:text-white shadow-md  hover:shadow-2xl hover:shadow-gray-600"
               >
                 Add to Cart <i class="fa-solid fa-cart-shopping"></i>
@@ -75,7 +75,7 @@ function Desktops({ AddToCard }) {
           </div>
           <div className="w-[340px] h-[500px] flex-col justify-between transform hover:scale-105  transition   bg-white rounded-2xl shadow-md shadow-gray-500 my-10">
             <img
-              src="src/assets/image copy 29.png"
+              src="public/assets/image copy 29.png"
               className=" m-auto py-5 w-[200px]"
               alt=""
             />
@@ -92,7 +92,7 @@ function Desktops({ AddToCard }) {
             </h1>
             <div className="text-center">
               <button
-                 onClick={() => AddToCard("iMac (2025)Red",1299,"src/assets/image copy 29.png")}
+                 onClick={() => AddToCard("iMac (2025)Red",1299,"public/assets/image copy 29.png")}
                 className="w-64 h-12 mt-5 rounded-3xl bg-sky-400 text-black  transform hover:scale-105 transition hover:text-white shadow-md  hover:shadow-2xl hover:shadow-gray-600"
               >
                 Add to Cart <i class="fa-solid fa-cart-shopping"></i>
@@ -101,7 +101,7 @@ function Desktops({ AddToCard }) {
           </div>
           <div className="w-[340px] h-[500px] flex-col justify-between transform hover:scale-105  transition   bg-white rounded-2xl shadow-md shadow-gray-500 my-10">
             <img
-              src="src/assets/image copy 30.png"
+              src="public/assets/image copy 30.png"
               className=" m-auto py-5 w-[200px]"
               alt=""
             />
@@ -120,7 +120,7 @@ function Desktops({ AddToCard }) {
             </h1>
             <div className="text-center">
               <button
-                onClick={() => AddToCard("iMac (2025)Orange",1299,"src/assets/image copy 30.png")}
+                onClick={() => AddToCard("iMac (2025)Orange",1299,"public/assets/image copy 30.png")}
                 className="w-64 h-12 mt-5 rounded-3xl bg-sky-400 text-black  transform hover:scale-105 transition hover:text-white shadow-md  hover:shadow-2xl hover:shadow-gray-600"
               >
                 Add to Cart <i class="fa-solid fa-cart-shopping"></i>
@@ -133,7 +133,7 @@ function Desktops({ AddToCard }) {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10">
           <div className="w-[340px] h-[500px] flex-col justify-between transform hover:scale-105  transition   bg-white rounded-2xl shadow-md shadow-gray-500 my-10">
             <img
-              src="src/assets/image copy 31.png"
+              src="public/assets/image copy 31.png"
               className=" m-auto py-5 w-[200px]"
               alt=""
             />
@@ -150,7 +150,7 @@ function Desktops({ AddToCard }) {
             </h1>
             <div className="text-center">
               <button
-                onClick={() => AddToCard("iMac (2025)Yellow",1299,"src/assets/image copy 31.png")}
+                onClick={() => AddToCard("iMac (2025)Yellow",1299,"public/assets/image copy 31.png")}
                 className="w-64 h-12 mt-5 rounded-3xl bg-sky-400 text-black  transform hover:scale-105 transition hover:text-white shadow-md  hover:shadow-2xl hover:shadow-gray-600"
               >
                 Add to Cart <i class="fa-solid fa-cart-shopping"></i>
@@ -159,7 +159,7 @@ function Desktops({ AddToCard }) {
           </div>
           <div className="w-[340px] h-[500px] flex-col justify-between transform hover:scale-105  transition   bg-white rounded-2xl shadow-md shadow-gray-500 my-10">
             <img
-              src="src/assets/image copy 32.png"
+              src="public/assets/image copy 32.png"
               className=" m-auto py-5 w-[200px]"
               alt=""
             />
@@ -176,7 +176,7 @@ function Desktops({ AddToCard }) {
             </h1>
             <div className="text-center">
               <button
-                onClick={() => AddToCard("iMac (2025)Green",1299,"src/assets/image copy 32.png")}
+                onClick={() => AddToCard("iMac (2025)Green",1299,"public/assets/image copy 32.png")}
                 className="w-64 h-12 mt-5 rounded-3xl bg-sky-400 text-black  transform hover:scale-105 transition hover:text-white shadow-md  hover:shadow-2xl hover:shadow-gray-600"
               >
                 Add to Cart <i class="fa-solid fa-cart-shopping"></i>
@@ -185,7 +185,7 @@ function Desktops({ AddToCard }) {
           </div>
           <div className="w-[340px] h-[500px] flex-col justify-between transform hover:scale-105  transition   bg-white rounded-2xl shadow-md shadow-gray-500 my-10">
             <img
-              src="src/assets/image copy 33.png"
+              src="public/assets/image copy 33.png"
               className=" m-auto py-5 w-[200px]"
               alt=""
             />
@@ -202,7 +202,7 @@ function Desktops({ AddToCard }) {
             </h1>
             <div className="text-center">
               <button
-                onClick={() => AddToCard("iMac (2025)Gray",1299,"src/assets/image copy 33.png")}
+                onClick={() => AddToCard("iMac (2025)Gray",1299,"public/assets/image copy 33.png")}
                 className="w-64 h-12 mt-5 rounded-3xl bg-sky-400 text-black  transform hover:scale-105 transition hover:text-white shadow-md  hover:shadow-2xl hover:shadow-gray-600"
               >
                 Add to Cart <i class="fa-solid fa-cart-shopping"></i>
@@ -212,7 +212,7 @@ function Desktops({ AddToCard }) {
 
           <div className="w-[340px] h-[500px] flex-col justify-between transform hover:scale-105  transition   bg-white rounded-2xl shadow-md shadow-gray-500 my-10">
             <img
-              src="src/assets/image copy 34.png"
+              src="public/assets/image copy 34.png"
               className=" m-auto py-5 w-[200px]"
               alt=""
             />
@@ -229,7 +229,7 @@ function Desktops({ AddToCard }) {
             </h1>
             <div className="text-center">
               <button
-                onClick={() => AddToCard("iMac (2025)Black",1299,"src/assets/image copy 34.png")}
+                onClick={() => AddToCard("iMac (2025)Black",1299,"public/assets/image copy 34.png")}
                 className="w-64 h-12 mt-5 rounded-3xl bg-sky-400 text-black  transform hover:scale-105 transition hover:text-white shadow-md  hover:shadow-2xl hover:shadow-gray-600"
               >
                 Add to Cart <i class="fa-solid fa-cart-shopping"></i>

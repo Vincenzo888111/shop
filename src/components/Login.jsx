@@ -18,7 +18,7 @@ function Login() {
       <div
         className="hidden md:flex w-1/2  items-center justify-center bg-cover bg-center"
         style={{
-          backgroundImage: "url('src/assets/image copy 47.png')",
+          backgroundImage: "url('public/assets/image copy 47.png')",
         }}
       >
         <h2 className="text-white text-3xl font-bold"></h2>

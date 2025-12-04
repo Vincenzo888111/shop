@@ -37,7 +37,7 @@ function Home() {
         </div>
         </div>
         <div className='home-right hidden md:block '>
-            <img src="src/assets/image copy 87.png" className="w-[500px] h-[600px] rounded-[50%]" alt="" />
+            <img src="public/assets/image copy 87.png" className="w-[500px] h-[600px] rounded-[50%]" alt="" />
         </div>
 
       </div>

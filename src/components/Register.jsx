@@ -24,7 +24,7 @@ function Register(){
             Hello Welcome Back!
           </h1>
           <img
-            src="src/assets/image copy 47.png"
+            src="public/assets/image copy 47.png"
             alt=""
             className="w-[450px] h-[450px] mt-10"
           />

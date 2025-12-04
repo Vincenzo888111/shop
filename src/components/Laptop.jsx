@@ -21,7 +21,7 @@ function Laptop({ AddToCard }) {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10">
           <div className="w-[340px] h-[450px] flex-col justify-between transform hover:scale-105 transition bg-white rounded-2xl shadow-md shadow-gray-500 my-10">
             <img
-              src="src/assets/image copy 16.png"
+              src="public/assets/image copy 16.png"
               className="m-auto py-5 w-[200px]"
               alt=""
             />
@@ -40,7 +40,7 @@ function Laptop({ AddToCard }) {
             </h1>
             <div className="text-center">
               <button
-                onClick={() => AddToCard("ASUS TUF Gaming F16 (2025)",1299,"src/assets/image copy 16.png")}
+                onClick={() => AddToCard("ASUS TUF Gaming F16 (2025)",1299,"public/assets/image copy 16.png")}
                 className="w-64 h-12 mt-5 rounded-3xl bg-sky-400 text-black transform hover:scale-105 transition hover:text-white shadow-md hover:shadow-2xl hover:shadow-gray-600"
               >
                 Add to Cart <i className="fa-solid fa-cart-shopping"></i>
@@ -49,7 +49,7 @@ function Laptop({ AddToCard }) {
           </div>
           <div className="w-[340px] h-[450px] flex-col justify-between transform hover:scale-105  transition   bg-white rounded-2xl shadow-md shadow-gray-500 my-10 ">
             <img
-              src="src/assets/image copy 15.png"
+              src="public/assets/image copy 15.png"
               className=" m-auto py-5 w-[200px]"
               alt=""
             />
@@ -68,16 +68,16 @@ function Laptop({ AddToCard }) {
             </h1>
             <div className="text-center">
               <button
-                 onClick={() => AddToCard("ASUS TUF Gaming F18 (2025)",1299,"src/assets/image copy 18.png")}
+                 onClick={() => AddToCard("ASUS TUF Gaming F18 (2025)",1299,"public/assets/image copy 18.png")}
                 className="w-64 h-12 mt-5 rounded-3xl bg-sky-400 text-black  transform hover:scale-105 transition hover:text-white shadow-md  hover:shadow-2xl hover:shadow-gray-600"
               >
-                Add to Cart <i class="fa-solid fa-cart-shopping"></i>
+                Add to Cart <i className="fa-solid fa-cart-shopping"></i>
               </button>
             </div>
           </div>
           <div className="w-[340px] h-[450px] flex-col justify-between transform hover:scale-105  transition   bg-white rounded-2xl shadow-md shadow-gray-500 my-10">
             <img
-              src="src/assets/image copy 17.png"
+              src="public/assets/image copy 17.png"
               className=" m-auto py-5 w-[200px]"
               alt=""
             />
@@ -96,16 +96,16 @@ function Laptop({ AddToCard }) {
             </h1>
             <div className="text-center">
               <button
-                  onClick={() => AddToCard("ASUS TUF Gaming A14 (2025)",1299,"src/assets/image copy 17.png")}
+                  onClick={() => AddToCard("ASUS TUF Gaming A14 (2025)",1299,"public/assets/image copy 17.png")}
                 className="w-64 h-12 mt-5 rounded-3xl bg-sky-400 text-black  transform hover:scale-105 transition hover:text-white shadow-md  hover:shadow-2xl hover:shadow-gray-600"
               >
-                Add to Cart <i class="fa-solid fa-cart-shopping"></i>
+                Add to Cart <i className="fa-solid fa-cart-shopping"></i>
               </button>
             </div>
           </div>
           <div className="w-[340px] h-[450px] flex-col justify-between transform hover:scale-105  transition   bg-white rounded-2xl shadow-md shadow-gray-500 my-10">
             <img
-              src="src/assets/image copy 18.png"
+              src="public/assets/image copy 18.png"
               className=" m-auto py-5 w-[200px]"
               alt=""
             />
@@ -124,10 +124,10 @@ function Laptop({ AddToCard }) {
             </h1>
             <div className="text-center">
               <button
-                  onClick={() => AddToCard("ASUS TUF Gaming A16 (2025)",1299,"src/assets/image copy 19.png")}
+                  onClick={() => AddToCard("ASUS TUF Gaming A16 (2025)",1299,"public/assets/image copy 19.png")}
                 className="w-64 h-12 mt-5 rounded-3xl bg-sky-400 text-black  transform hover:scale-105 transition hover:text-white shadow-md  hover:shadow-2xl hover:shadow-gray-600"
               >
-                Add to Cart <i class="fa-solid fa-cart-shopping"></i>
+                Add to Cart <i className="fa-solid fa-cart-shopping"></i>
               </button>
             </div>
           </div>
@@ -137,7 +137,7 @@ function Laptop({ AddToCard }) {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10">
           <div className="w-[340px] h-[450px] flex-col justify-between transform hover:scale-105  transition   bg-white rounded-2xl shadow-md shadow-gray-500 my-10">
             <img
-              src="src/assets/image copy 19.png"
+              src="public/assets/image copy 19.png"
               className=" m-auto py-5 w-[200px]"
               alt=""
             />
@@ -156,16 +156,16 @@ function Laptop({ AddToCard }) {
             </h1>
             <div className="text-center">
               <button
-                  onClick={() => AddToCard("ASUS TUF Gaming F16 (2024)",1299,"src/assets/image copy 20.png")}
+                  onClick={() => AddToCard("ASUS TUF Gaming F16 (2024)",1299,"public/assets/image copy 20.png")}
                 className="w-64 h-12 mt-5 rounded-3xl bg-sky-400 text-black  transform hover:scale-105 transition hover:text-white shadow-md  hover:shadow-2xl hover:shadow-gray-600"
               >
-                Add to Cart <i class="fa-solid fa-cart-shopping"></i>
+                Add to Cart <i className="fa-solid fa-cart-shopping"></i>
               </button>
             </div>
           </div>
           <div className="w-[340px] h-[450px] flex-col justify-between transform hover:scale-105  transition   bg-white rounded-2xl shadow-md shadow-gray-500 my-10 ">
             <img
-              src="src/assets/image copy 20.png"
+              src="public/assets/image copy 20.png"
               className=" m-auto py-5 w-[200px]"
               alt=""
             />
@@ -184,16 +184,16 @@ function Laptop({ AddToCard }) {
             </h1>
             <div className="text-center">
               <button
-                 onClick={() => AddToCard("ASUS TUF Gaming A16 (2024)",1299,"src/assets/image copy 21.png")}
+                 onClick={() => AddToCard("ASUS TUF Gaming A16 (2024)",1299,"public/assets/image copy 21.png")}
                 className="w-64 h-12 mt-5 rounded-3xl bg-sky-400 text-black  transform hover:scale-105 transition hover:text-white shadow-md  hover:shadow-2xl hover:shadow-gray-600"
               >
-                Add to Cart <i class="fa-solid fa-cart-shopping"></i>
+                Add to Cart <i classNames="fa-solid fa-cart-shopping"></i>
               </button>
             </div>
           </div>
           <div className="w-[340px] h-[450px] flex-col justify-between transform hover:scale-105  transition   bg-white rounded-2xl shadow-md shadow-gray-500 my-10">
             <img
-              src="src/assets/image copy 21.png"
+              src="public/assets/image copy 21.png"
               className=" m-auto py-5 w-[200px]"
               alt=""
             />
@@ -212,7 +212,7 @@ function Laptop({ AddToCard }) {
             </h1>
             <div className="text-center">
               <button
-                  onClick={() => AddToCard(" ASUS TUF Gaming A15 (2024)",1299,"src/assets/image copy 22.png")}
+                  onClick={() => AddToCard(" ASUS TUF Gaming A15 (2024)",1299,"public/assets/image copy 22.png")}
                 className="w-64 h-12 mt-5 rounded-3xl bg-sky-400 text-black  transform hover:scale-105 transition hover:text-white shadow-md  hover:shadow-2xl hover:shadow-gray-600"
               >
                 Add to Cart <i class="fa-solid fa-cart-shopping"></i>
@@ -221,7 +221,7 @@ function Laptop({ AddToCard }) {
           </div>
           <div className="w-[340px] h-[450px] flex-col justify-between transform hover:scale-105  transition   bg-white rounded-2xl shadow-md shadow-gray-500 my-10">
             <img
-              src="src/assets/image copy 22.png"
+              src="public/assets/image copy 22.png"
               className=" m-auto py-5 w-[200px]"
               alt=""
             />
@@ -240,7 +240,7 @@ function Laptop({ AddToCard }) {
             </h1>
             <div className="text-center">
               <button
-                  onClick={() => AddToCard("ASUS TUF Gaming F15 (2022)",1299,"src/assets/image copy 23.png")}
+                  onClick={() => AddToCard("ASUS TUF Gaming F15 (2022)",1299,"public/assets/image copy 23.png")}
                 className="w-64 h-12 mt-5 rounded-3xl bg-sky-400 text-black  transform hover:scale-105 transition hover:text-white shadow-md  hover:shadow-2xl hover:shadow-gray-600"
               >
                 Add to Cart <i class="fa-solid fa-cart-shopping"></i>
@@ -249,9 +249,9 @@ function Laptop({ AddToCard }) {
           </div>
         </div>
       </div>
-      <p className="mx-5">
+      <div className="mx-5">
         <hr />
-      </p>
+      </div>
       <div className="w-full h-[100px] mt-25 px-5" id="rog">
         <hr />
         <h1 className="text-black font-bold text-4xl ">Laptop Shop</h1>
@@ -270,7 +270,7 @@ function Laptop({ AddToCard }) {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10">
           <div className="w-[340px] h-[450px] flex-col justify-between transform hover:scale-105  transition   bg-white rounded-2xl shadow-md shadow-gray-500 my-10">
             <img
-              src="src/assets/image copy 37.png"
+              src="public/assets/image copy 37.png"
               className=" m-auto py-5 w-[200px]"
               alt=""
             />
@@ -291,7 +291,7 @@ function Laptop({ AddToCard }) {
             </h1>
             <div className="text-center">
               <button
-                  onClick={() => AddToCard("ROG Strix SCAR 18 (2025)",2699,"src/assets/image copy 36.png")}
+                  onClick={() => AddToCard("ROG Strix SCAR 18 (2025)",2699,"public/assets/image copy 36.png")}
                 className="w-64 h-12 mt-5 rounded-3xl bg-sky-400 text-black  transform hover:scale-105 transition hover:text-white shadow-md  hover:shadow-2xl hover:shadow-gray-600"
               >
                 Add to Cart <i class="fa-solid fa-cart-shopping"></i>
@@ -300,7 +300,7 @@ function Laptop({ AddToCard }) {
           </div>
           <div className="w-[340px] h-[450px] flex-col justify-between transform hover:scale-105  transition   bg-white rounded-2xl shadow-md shadow-gray-500 my-10">
             <img
-              src="src/assets/image copy 38.png"
+              src="public/assets/image copy 38.png"
               className=" m-auto py-5 w-[200px]"
               alt=""
             />
@@ -322,16 +322,16 @@ function Laptop({ AddToCard }) {
             </h1>
             <div className="text-center">
               <button
-                  onClick={() => AddToCard("ROG Zephyrus G14 (2025)",2099,"src/assets/image copy 37.png")}
+                  onClick={() => AddToCard("ROG Zephyrus G14 (2025)",2099,"public/assets/image copy 37.png")}
                 className="w-64 h-12 mt-5 rounded-3xl bg-sky-400 text-black  transform hover:scale-105 transition hover:text-white shadow-md  hover:shadow-2xl hover:shadow-gray-600"
               >
-                Add to Cart <i class="fa-solid fa-cart-shopping"></i>
+                Add to Cart <i cl="fa-solid fa-cart-shopping"></i>
               </button>
             </div>
           </div>
           <div className="w-[340px] h-[450px] flex-col justify-between transform hover:scale-105  transition   bg-white rounded-2xl shadow-md shadow-gray-500 my-10">
             <img
-              src="src/assets/image copy 39.png"
+              src="public/assets/image copy 39.png"
               className=" m-auto py-5 w-[200px]"
               alt=""
             />
@@ -350,7 +350,7 @@ function Laptop({ AddToCard }) {
             </h1>
             <div className="text-center">
               <button
-                  onClick={() => AddToCard("ROG Flow Z13 (2025)",2099,"src/assets/image copy 38.png")}
+                  onClick={() => AddToCard("ROG Flow Z13 (2025)",2099,"public/assets/image copy 38.png")}
                 className="w-64 h-12 mt-5 rounded-3xl bg-sky-400 text-black  transform hover:scale-105 transition hover:text-white shadow-md  hover:shadow-2xl hover:shadow-gray-600"
               >
                 Add to Cart <i class="fa-solid fa-cart-shopping"></i>
@@ -359,7 +359,7 @@ function Laptop({ AddToCard }) {
           </div>
           <div className="w-[340px] h-[450px] flex-col justify-between transform hover:scale-105  transition   bg-white rounded-2xl shadow-md shadow-gray-500 my-10">
             <img
-              src="src/assets/image copy 40.png"
+              src="public/assets/image copy 40.png"
               className=" m-auto py-5 w-[200px]"
               alt=""
             />
@@ -380,7 +380,7 @@ function Laptop({ AddToCard }) {
             </h1>
             <div className="text-center">
               <button
-                  onClick={() => AddToCard("ROG Zephyrus G16 (2025) GU605",2799,"src/assets/image copy 39.png")}
+                  onClick={() => AddToCard("ROG Zephyrus G16 (2025) GU605",2799,"public/assets/image copy 39.png")}
                 className="w-64 h-12 mt-5 rounded-3xl bg-sky-400 text-black  transform hover:scale-105 transition hover:text-white shadow-md  hover:shadow-2xl hover:shadow-gray-600"
               >
                 Add to Cart <i class="fa-solid fa-cart-shopping"></i>
@@ -393,7 +393,7 @@ function Laptop({ AddToCard }) {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10">
           <div className="w-[340px] h-[450px] flex-col justify-between transform hover:scale-105  transition   bg-white rounded-2xl shadow-md shadow-gray-500 my-10">
             <img
-              src="src/assets/image copy 36.png"
+              src="public/assets/image copy 36.png"
               className=" m-auto py-5 w-[200px]"
               alt=""
             />
@@ -414,7 +414,7 @@ function Laptop({ AddToCard }) {
             </h1>
             <div className="text-center">
               <button
-                  onClick={() => AddToCard("ROG Strix G16 (2025) G615",1299,"src/assets/image copy 40.png")}
+                  onClick={() => AddToCard("ROG Strix G16 (2025) G615",1299,"public/assets/image copy 36.png")}
                 className="w-64 h-12 mt-5 rounded-3xl bg-sky-400 text-black  transform hover:scale-105 transition hover:text-white shadow-md  hover:shadow-2xl hover:shadow-gray-600"
               >
                 Add to Cart <i class="fa-solid fa-cart-shopping"></i>
@@ -423,7 +423,7 @@ function Laptop({ AddToCard }) {
           </div>
           <div className="w-[340px] h-[450px] flex-col justify-between transform hover:scale-105  transition   bg-white rounded-2xl shadow-md shadow-gray-500 my-10">
             <img
-              src="src/assets/image copy 36.png"
+              src="public/assets/image copy 36.png"
               className=" m-auto py-5 w-[200px]"
               alt=""
             />
@@ -444,7 +444,7 @@ function Laptop({ AddToCard }) {
             </h1>
             <div className="text-center">
               <button
-                  onClick={() => AddToCard("ROG Strix G16 (2025) G615",1299,"src/assets/image copy 41.png")}
+                  onClick={() => AddToCard("ROG Strix G16 (2025) G615",1299,"public/assets/image copy 36.png")}
                 className="w-64 h-12 mt-5 rounded-3xl bg-sky-400 text-black  transform hover:scale-105 transition hover:text-white shadow-md  hover:shadow-2xl hover:shadow-gray-600"
               >
                 Add to Cart <i class="fa-solid fa-cart-shopping"></i>
@@ -453,7 +453,7 @@ function Laptop({ AddToCard }) {
           </div>
           <div className="w-[340px] h-[450px] flex-col justify-between transform hover:scale-105  transition   bg-white rounded-2xl shadow-md shadow-gray-500 my-10">
             <img
-              src="src/assets/image copy 36.png"
+              src="public/assets/image copy 36.png"
               className=" m-auto py-5 w-[200px]"
               alt=""
             />
@@ -474,7 +474,7 @@ function Laptop({ AddToCard }) {
             </h1>
             <div className="text-center">
               <button
-                  onClick={() => AddToCard("ROG Strix G16 (2025) G615",1299,"src/assets/image copy 42.png")}
+                  onClick={() => AddToCard("ROG Strix G16 (2025) G615",1299,"public/assets/image copy 36.png")}
                 className="w-64 h-12 mt-5 rounded-3xl bg-sky-400 text-black  transform hover:scale-105 transition hover:text-white shadow-md  hover:shadow-2xl hover:shadow-gray-600"
               >
                 Add to Cart <i class="fa-solid fa-cart-shopping"></i>
@@ -483,7 +483,7 @@ function Laptop({ AddToCard }) {
           </div>
           <div className="w-[340px] h-[450px] flex-col justify-between transform hover:scale-105  transition   bg-white rounded-2xl shadow-md shadow-gray-500 my-10">
             <img
-              src="src/assets/image copy 36.png"
+              src="public/assets/image copy 36.png"
               className=" m-auto py-5 w-[200px]"
               alt=""
             />
@@ -504,7 +504,7 @@ function Laptop({ AddToCard }) {
             </h1>
             <div className="text-center">
               <button
-                  onClick={() => AddToCard("ROG Strix G16 (2025) G615",1299,"src/assets/image copy 43.png")}
+                  onClick={() => AddToCard("ROG Strix G16 (2025) G615",1299,"public/assets/image copy 36[tx].png")}
                 className="w-64 h-12 mt-5 rounded-3xl bg-sky-400 text-black  transform hover:scale-105 transition hover:text-white shadow-md  hover:shadow-2xl hover:shadow-gray-600"
               >
                 Add to Cart <i class="fa-solid fa-cart-shopping"></i>
@@ -531,7 +531,7 @@ function Laptop({ AddToCard }) {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10">
           <div className="w-[340px] h-[450px] flex-col justify-between transform hover:scale-105  transition   bg-white rounded-2xl shadow-md shadow-gray-500 my-10">
             <img
-              src="src/assets/image copy 23.png"
+              src="public/assets/image copy 23.png"
               className=" m-auto py-5 w-[200px]"
               alt=""
             />
@@ -550,7 +550,7 @@ function Laptop({ AddToCard }) {
             </h1>
             <div className="text-center">
               <button
-                  onClick={() => AddToCard(" MacBook Air (2025)Sky Blue",1399,"src/assets/image copy 23.png")}
+                  onClick={() => AddToCard(" MacBook Air (2025)Sky Blue",1399,"public/assets/image copy 23.png")}
                 className="w-64 h-12 mt-5 rounded-3xl bg-sky-400 text-black  transform hover:scale-105 transition hover:text-white shadow-md  hover:shadow-2xl hover:shadow-gray-600"
               >
                 Add to Cart <i class="fa-solid fa-cart-shopping"></i>
@@ -559,7 +559,7 @@ function Laptop({ AddToCard }) {
           </div>
           <div className="w-[340px] h-[450px] flex-col justify-between transform hover:scale-105  transition   bg-white rounded-2xl shadow-md shadow-gray-500 my-10">
             <img
-              src="src/assets/image copy 24.png"
+              src="public/assets/image copy 24.png"
               className=" m-auto py-5 w-[200px]"
               alt=""
             />
@@ -578,7 +578,7 @@ function Laptop({ AddToCard }) {
             </h1>
             <div className="text-center">
               <button
-                 onClick={() => AddToCard("MacBook Air (2025) Silver",1399,"src/assets/image copy 24.png")}
+                 onClick={() => AddToCard("MacBook Air (2025) Silver",1399,"public/assets/image copy 24.png")}
                 className="w-64 h-12 mt-5 rounded-3xl bg-sky-400 text-black  transform hover:scale-105 transition hover:text-white shadow-md  hover:shadow-2xl hover:shadow-gray-600"
               >
                 Add to Cart <i class="fa-solid fa-cart-shopping"></i>
@@ -587,7 +587,7 @@ function Laptop({ AddToCard }) {
           </div>
           <div className="w-[340px] h-[450px] flex-col justify-between transform hover:scale-105  transition   bg-white rounded-2xl shadow-md shadow-gray-500 my-10">
             <img
-              src="src/assets/image copy 25.png"
+              src="public/assets/image copy 25.png"
               className=" m-auto py-5 w-[200px]"
               alt=""
             />
@@ -606,7 +606,7 @@ function Laptop({ AddToCard }) {
             </h1>
             <div className="text-center">
               <button
-                  onClick={() => AddToCard(" MacBook Air (2025) Starlight",1399,"src/assets/image copy 25.png")}
+                  onClick={() => AddToCard(" MacBook Air (2025) Starlight",1399,"public/assets/image copy 25.png")}
                 className="w-64 h-12 mt-5 rounded-3xl bg-sky-400 text-black  transform hover:scale-105 transition hover:text-white shadow-md  hover:shadow-2xl hover:shadow-gray-600"
               >
                 Add to Cart <i class="fa-solid fa-cart-shopping"></i>
@@ -615,7 +615,7 @@ function Laptop({ AddToCard }) {
           </div>
           <div className="w-[340px] h-[450px] flex-col justify-between transform hover:scale-105  transition   bg-white rounded-2xl shadow-md shadow-gray-500 my-10">
             <img
-              src="src/assets/image copy 26.png"
+              src="public/assets/image copy 26.png"
               className=" m-auto py-5 w-[200px]"
               alt=""
             />
@@ -634,7 +634,7 @@ function Laptop({ AddToCard }) {
             </h1>
             <div className="text-center">
               <button
-                  onClick={() => AddToCard(" MacBook Air (2025) Black",1399,"src/assets/image copy 26.png")}
+                  onClick={() => AddToCard(" MacBook Air (2025) Black",1399,"public/assets/image copy 26.png")}
                 className="w-64 h-12 mt-5 rounded-3xl bg-sky-400 text-black  transform hover:scale-105 transition hover:text-white shadow-md  hover:shadow-2xl hover:shadow-gray-600"
               >
                 Add to Cart <i class="fa-solid fa-cart-shopping"></i>
@@ -647,7 +647,7 @@ function Laptop({ AddToCard }) {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10">
           <div className="w-[340px] h-[450px] flex-col justify-between transform hover:scale-105  transition   bg-white rounded-2xl shadow-md shadow-gray-500 my-10">
             <img
-              src="src/assets/image copy 23.png"
+              src="public/assets/image copy 23.png"
               className=" m-auto py-5 w-[200px]"
               alt=""
             />
@@ -666,7 +666,7 @@ function Laptop({ AddToCard }) {
             </h1>
             <div className="text-center">
               <button
-                  onClick={() => AddToCard(" MacBook Air (2025)Sky Blue",1399,"src/assets/image copy 23.png")}
+                  onClick={() => AddToCard(" MacBook Air (2025)Sky Blue",1399,"public/assets/image copy 23.png")}
                 className="w-64 h-12 mt-5 rounded-3xl bg-sky-400 text-black  transform hover:scale-105 transition hover:text-white shadow-md  hover:shadow-2xl hover:shadow-gray-600"
               >
                 Add to Cart <i class="fa-solid fa-cart-shopping"></i>
@@ -675,7 +675,7 @@ function Laptop({ AddToCard }) {
           </div>
           <div className="w-[340px] h-[450px] flex-col justify-between transform hover:scale-105  transition   bg-white rounded-2xl shadow-md shadow-gray-500 my-10">
             <img
-              src="src/assets/image copy 24.png"
+              src="public/assets/image copy 24.png"
               className=" m-auto py-5 w-[200px]"
               alt=""
             />
@@ -694,7 +694,7 @@ function Laptop({ AddToCard }) {
             </h1>
             <div className="text-center">
               <button
-                  onClick={() => AddToCard("MacBook Air (2025) Silver",1399,"src/assets/image copy 24.png")}
+                  onClick={() => AddToCard("MacBook Air (2025) Silver",1399,"public/assets/image copy 24.png")}
                 className="w-64 h-12 mt-5 rounded-3xl bg-sky-400 text-black  transform hover:scale-105 transition hover:text-white shadow-md  hover:shadow-2xl hover:shadow-gray-600"
               >
                 Add to Cart <i class="fa-solid fa-cart-shopping"></i>
@@ -703,7 +703,7 @@ function Laptop({ AddToCard }) {
           </div>
           <div className="w-[340px] h-[450px] flex-col justify-between transform hover:scale-105  transition   bg-white rounded-2xl shadow-md shadow-gray-500 my-10">
             <img
-              src="src/assets/image copy 25.png"
+              src="public/assets/image copy 25.png"
               className=" m-auto py-5 w-[200px]"
               alt=""
             />
@@ -722,7 +722,7 @@ function Laptop({ AddToCard }) {
             </h1>
             <div className="text-center">
               <button
-                  onClick={() => AddToCard("MacBook Air (2025) Starlight",1399,"src/assets/image copy 25.png")}
+                  onClick={() => AddToCard("MacBook Air (2025) Starlight",1399,"public/assets/image copy 25.png")}
                 className="w-64 h-12 mt-5 rounded-3xl bg-sky-400 text-black  transform hover:scale-105 transition hover:text-white shadow-md  hover:shadow-2xl hover:shadow-gray-600"
               >
                 Add to Cart <i class="fa-solid fa-cart-shopping"></i>
@@ -731,7 +731,7 @@ function Laptop({ AddToCard }) {
           </div>
           <div className="w-[340px] h-[450px] flex-col justify-between transform hover:scale-105  transition   bg-white rounded-2xl shadow-md shadow-gray-500 my-10">
             <img
-              src="src/assets/image copy 26.png"
+              src="public/assets/image copy 26.png"
               className=" m-auto py-5 w-[200px]"
               alt=""
             />
@@ -750,7 +750,7 @@ function Laptop({ AddToCard }) {
             </h1>
             <div className="text-center">
               <button
-                 onClick={() => AddToCard("MacBook Air (2025) Black",1199,"src/assets/image copy 26.png")}
+                 onClick={() => AddToCard("MacBook Air (2025) Black",1199,"public/assets/image copy 26.png")}
                 className="w-64 h-12 mt-5 rounded-3xl bg-sky-400 text-black  transform hover:scale-105 transition hover:text-white shadow-md  hover:shadow-2xl hover:shadow-gray-600"
               >
                 Add to Cart <i class="fa-solid fa-cart-shopping"></i>

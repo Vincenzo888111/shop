@@ -22,7 +22,7 @@ function PhoneCard({ AddToCard }) {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10 justify-center items-center">
           <div className="w-[340px] h-[450px] flex-col justify-between transform hover:scale-105 transition bg-white rounded-2xl shadow-md shadow-gray-500 my-10">
             <img
-              src="src/assets/image copy.png"
+              src="public/assets/image copy.png"
               className="m-auto py-5 h-1/2"
               alt=""
             />
@@ -48,7 +48,7 @@ function PhoneCard({ AddToCard }) {
             </h1>
             <div className="text-center">
               <button
-                onClick={() => AddToCard("iPhone 17 Pro Max", 1099,"src/assets/image copy.png")}
+                onClick={() => AddToCard("iPhone 17 Pro Max", 1099,"public/assets/image copy.png")}
                 className="w-64 h-12 mt-5 rounded-3xl bg-sky-400 text-black transform hover:scale-105 transition hover:text-white shadow-md hover:shadow-2xl hover:shadow-gray-600"
               >
                 Add to Cart <i className="fa-solid fa-cart-shopping"></i>
@@ -59,7 +59,7 @@ function PhoneCard({ AddToCard }) {
           {/* ✅ Repeat same button fix for others */}
           <div className="w-[340px] h-[450px] flex-col justify-between transform hover:scale-105 transition bg-white rounded-2xl shadow-md shadow-gray-500 my-10">
             <img
-              src="src/assets/image copy 2.png"
+              src="public/assets/image copy 2.png"
               className="m-auto py-5 h-1/2"
               alt=""
             />
@@ -85,7 +85,7 @@ function PhoneCard({ AddToCard }) {
             </h1>
             <div className="text-center">
               <button
-               onClick={() => AddToCard("iPhone 17 Pro Max", 1099,"src/assets/image copy 2.png")}
+               onClick={() => AddToCard("iPhone 17 Pro Max", 1099,"public/assets/image copy 2.png")}
                 className="w-64 h-12 mt-5 rounded-3xl bg-sky-400 text-black transform hover:scale-105 transition hover:text-white shadow-md hover:shadow-2xl hover:shadow-gray-600"
               >
                 Add to Cart <i className="fa-solid fa-cart-shopping"></i>
@@ -96,7 +96,7 @@ function PhoneCard({ AddToCard }) {
           {/* ✅ Same as above — fixes applied */}
           <div className="w-[340px] h-[450px] flex-col justify-between transform hover:scale-105 transition bg-white rounded-2xl shadow-md shadow-gray-500 my-10">
             <img
-              src="src/assets/image copy 3.png"
+              src="public/assets/image copy 3.png"
               className="m-auto py-5 h-1/2"
               alt=""
             />
@@ -121,7 +121,7 @@ function PhoneCard({ AddToCard }) {
             </h1>
             <div className="text-center">
               <button
-               onClick={() => AddToCard("iPhone 17 Pro Max", 1099,"src/assets/image copy 3.png")}
+               onClick={() => AddToCard("iPhone 17 Pro Max", 1099,"public/assets/image copy 3.png")}
                 className="w-64 h-12 mt-5 rounded-3xl bg-sky-400 text-black transform hover:scale-105 transition hover:text-white shadow-md hover:shadow-2xl hover:shadow-gray-600"
               >
                 Add to Cart <i className="fa-solid fa-cart-shopping"></i>
@@ -131,7 +131,7 @@ function PhoneCard({ AddToCard }) {
 
           <div className="w-[340px] h-[450px] flex-col justify-between transform hover:scale-105 transition bg-white rounded-2xl shadow-md shadow-gray-500 my-10">
             <img
-              src="src/assets/image copy 4.png"
+              src="public/assets/image copy 4.png"
               className="m-auto py-5 h-1/2"
               alt=""
             />
@@ -156,7 +156,7 @@ function PhoneCard({ AddToCard }) {
             </h1>
             <div className="text-center">
               <button
-                onClick={() => AddToCard("iPhone Air", 999,"src/assets/image copy 4.png")}
+                onClick={() => AddToCard("iPhone Air", 999,"public/assets/image copy 4.png")}
                 className="w-64 h-12 mt-5 rounded-3xl bg-sky-400 text-black transform hover:scale-105 transition hover:text-white shadow-md hover:shadow-2xl hover:shadow-gray-600"
               >
                 Add to Cart <i className="fa-solid fa-cart-shopping"></i>
@@ -169,7 +169,7 @@ function PhoneCard({ AddToCard }) {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10">
           <div className="w-[340px] h-[450px] flex-col justify-between transform hover:scale-105 transition bg-white rounded-2xl shadow-md shadow-gray-500 my-10">
             <img
-              src="src/assets/image copy 5.png"
+              src="public/assets/image copy 5.png"
               className="m-auto py-5 h-1/2"
               alt=""
             />
@@ -192,7 +192,7 @@ function PhoneCard({ AddToCard }) {
             </h1>
             <div className="text-center">
               <button
-                onClick={() => AddToCard("iPhone Air",999,"src/assets/image copy 5.png")}
+                onClick={() => AddToCard("iPhone Air",999,"public/assets/image copy 5.png")}
                 className="w-64 h-12 mt-5 rounded-3xl bg-sky-400 text-black transform hover:scale-105 transition hover:text-white shadow-md hover:shadow-2xl hover:shadow-gray-600"
               >
                 Add to Cart <i className="fa-solid fa-cart-shopping"></i>
@@ -203,7 +203,7 @@ function PhoneCard({ AddToCard }) {
           {/* ✅ Repeat same button fix for others */}
           <div className="w-[340px] h-[450px] flex-col justify-between transform hover:scale-105 transition bg-white rounded-2xl shadow-md shadow-gray-500 my-10">
             <img
-              src="src/assets/image copy 6.png"
+              src="public/assets/image copy 6.png"
               className="m-auto py-5 h-1/2"
               alt=""
             />
@@ -226,7 +226,7 @@ function PhoneCard({ AddToCard }) {
             </h1>
             <div className="text-center">
               <button
-                onClick={() => AddToCard("iPhone Air",999,"src/assets/image copy 6.png")}
+                onClick={() => AddToCard("iPhone Air",999,"public/assets/image copy 6.png")}
                 className="w-64 h-12 mt-5 rounded-3xl bg-sky-400 text-black transform hover:scale-105 transition hover:text-white shadow-md hover:shadow-2xl hover:shadow-gray-600"
               >
                 Add to Cart <i className="fa-solid fa-cart-shopping"></i>
@@ -237,7 +237,7 @@ function PhoneCard({ AddToCard }) {
           {/* ✅ Same as above — fixes applied */}
           <div className="w-[340px] h-[450px] flex-col justify-between transform hover:scale-105 transition bg-white rounded-2xl shadow-md shadow-gray-500 my-10">
             <img
-              src="src/assets/image copy 7.png"
+              src="public/assets/image copy 7.png"
               className="m-auto py-5 h-1/2"
               alt=""
             />
@@ -258,7 +258,7 @@ function PhoneCard({ AddToCard }) {
             </h1>
             <div className="text-center">
               <button
-                onClick={() => AddToCard("iPhone Air",999,"src/assets/image copy 7.png")}
+                onClick={() => AddToCard("iPhone Air",999,"public/assets/image copy 7.png")}
                 className="w-64 h-12 mt-5 rounded-3xl bg-sky-400 text-black transform hover:scale-105 transition hover:text-white shadow-md hover:shadow-2xl hover:shadow-gray-600"
               >
                 Add to Cart <i className="fa-solid fa-cart-shopping"></i>
@@ -268,7 +268,7 @@ function PhoneCard({ AddToCard }) {
 
           <div className="w-[340px] h-[450px] flex-col justify-between transform hover:scale-105 transition bg-white rounded-2xl shadow-md shadow-gray-500 my-10">
             <img
-              src="src/assets/image copy 12.png"
+              src="public/assets/image copy 12.png"
               className="m-auto py-5 h-1/2"
               alt=""
             />
@@ -289,7 +289,7 @@ function PhoneCard({ AddToCard }) {
             </h1>
             <div className="text-center">
               <button
-                onClick={() => AddToCard("iPhone 17",799,"src/assets/image copy 12.png")}
+                onClick={() => AddToCard("iPhone 17",799,"public/assets/image copy 12.png")}
                 className="w-64 h-12 mt-5 rounded-3xl bg-sky-400 text-black transform hover:scale-105 transition hover:text-white shadow-md hover:shadow-2xl hover:shadow-gray-600"
               >
                 Add to Cart <i className="fa-solid fa-cart-shopping"></i>
@@ -302,7 +302,7 @@ function PhoneCard({ AddToCard }) {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10">
           <div className="w-[340px] h-[450px] flex-col justify-between transform hover:scale-105 transition bg-white rounded-2xl shadow-md shadow-gray-500 my-10">
             <img
-              src="src/assets/image copy 9.png"
+              src="public/assets/image copy 9.png"
               className="m-auto py-5 h-1/2"
               alt=""
             />
@@ -325,7 +325,7 @@ function PhoneCard({ AddToCard }) {
             </h1>
             <div className="text-center">
               <button
-                onClick={() => AddToCard("iPhone 17",799,"src/assets/image copy 9.png")}
+                onClick={() => AddToCard("iPhone 17",799,"public/assets/image copy 9.png")}
                 className="w-64 h-12 mt-5 rounded-3xl bg-sky-400 text-black transform hover:scale-105 transition hover:text-white shadow-md hover:shadow-2xl hover:shadow-gray-600"
               >
                 Add to Cart <i className="fa-solid fa-cart-shopping"></i>
@@ -336,7 +336,7 @@ function PhoneCard({ AddToCard }) {
           {/* ✅ Repeat same button fix for others */}
           <div className="w-[340px] h-[450px] flex-col justify-between transform hover:scale-105 transition bg-white rounded-2xl shadow-md shadow-gray-500 my-10">
             <img
-              src="src/assets/image copy 10.png"
+              src="public/assets/image copy 10.png"
               className="m-auto py-5 h-1/2"
               alt=""
             />
@@ -359,7 +359,7 @@ function PhoneCard({ AddToCard }) {
             </h1>
             <div className="text-center">
               <button
-                onClick={() => AddToCard("iPhone 17",799,"src/assets/image copy 10.png")}
+                onClick={() => AddToCard("iPhone 17",799,"public/assets/image copy 10.png")}
                 className="w-64 h-12 mt-5 rounded-3xl bg-sky-400 text-black transform hover:scale-105 transition hover:text-white shadow-md hover:shadow-2xl hover:shadow-gray-600"
               >
                 Add to Cart <i className="fa-solid fa-cart-shopping"></i>
@@ -370,7 +370,7 @@ function PhoneCard({ AddToCard }) {
           {/* ✅ Same as above — fixes applied */}
           <div className="w-[340px] h-[450px] flex-col justify-between transform hover:scale-105 transition bg-white rounded-2xl shadow-md shadow-gray-500 my-10">
             <img
-              src="src/assets/image copy 11.png"
+              src="public/assets/image copy 11.png"
               className="m-auto py-5 h-1/2"
               alt=""
             />
@@ -391,7 +391,7 @@ function PhoneCard({ AddToCard }) {
             </h1>
             <div className="text-center">
               <button
-               onClick={() => AddToCard("iPhone 17",799,"src/assets/image copy 11.png")}
+               onClick={() => AddToCard("iPhone 17",799,"public/assets/image copy 11.png")}
                 className="w-64 h-12 mt-5 rounded-3xl bg-sky-400 text-black transform hover:scale-105 transition hover:text-white shadow-md hover:shadow-2xl hover:shadow-gray-600"
               >
                 Add to Cart <i className="fa-solid fa-cart-shopping"></i>
@@ -401,7 +401,7 @@ function PhoneCard({ AddToCard }) {
 
           <div className="w-[340px] h-[450px] flex-col justify-between transform hover:scale-105 transition bg-white rounded-2xl shadow-md shadow-gray-500 my-10">
             <img
-              src="src/assets/image copy 8.png"
+              src="public/assets/image copy 8.png"
               className="m-auto py-5 h-1/2"
               alt=""
             />
@@ -424,7 +424,7 @@ function PhoneCard({ AddToCard }) {
             </h1>
             <div className="text-center">
               <button
-                onClick={() => AddToCard("iPhone 17",799,"src/assets/image copy 8.png")}
+                onClick={() => AddToCard("iPhone 17",799,"public/assets/image copy 8.png")}
                 className="w-64 h-12 mt-5 rounded-3xl bg-sky-400 text-black transform hover:scale-105 transition hover:text-white shadow-md hover:shadow-2xl hover:shadow-gray-600"
               >
                 Add to Cart <i className="fa-solid fa-cart-shopping"></i>
@@ -437,7 +437,7 @@ function PhoneCard({ AddToCard }) {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10">
           <div className="w-[340px] h-[450px] flex-col justify-between transform hover:scale-105 transition bg-white rounded-2xl shadow-md shadow-gray-500 my-10">
             <img
-              src="src/assets/image copy 9.png"
+              src="public/assets/image copy 9.png"
               className="m-auto py-5 h-1/2"
               alt=""
             />
@@ -460,7 +460,7 @@ function PhoneCard({ AddToCard }) {
             </h1>
             <div className="text-center">
               <button
-               onClick={() => AddToCard("iPhone 17",799,"src/assets/image copy 9.png")}
+               onClick={() => AddToCard("iPhone 17",799,"public/assets/image copy 9.png")}
                 className="w-64 h-12 mt-5 rounded-3xl bg-sky-400 text-black transform hover:scale-105 transition hover:text-white shadow-md hover:shadow-2xl hover:shadow-gray-600"
               >
                 Add to Cart <i className="fa-solid fa-cart-shopping"></i>
@@ -471,7 +471,7 @@ function PhoneCard({ AddToCard }) {
           {/* ✅ Repeat same button fix for others */}
           <div className="w-[340px] h-[450px] flex-col justify-between transform hover:scale-105 transition bg-white rounded-2xl shadow-md shadow-gray-500 my-10">
             <img
-              src="src/assets/image copy 10.png"
+              src="public/assets/image copy 10.png"
               className="m-auto py-5 h-1/2"
               alt=""
             />
@@ -494,7 +494,7 @@ function PhoneCard({ AddToCard }) {
             </h1>
             <div className="text-center">
               <button
-                onClick={() => AddToCard("iPhone 17",799,"src/assets/image copy 10.png")}
+                onClick={() => AddToCard("iPhone 17",799,"public/assets/image copy 10.png")}
                 className="w-64 h-12 mt-5 rounded-3xl bg-sky-400 text-black transform hover:scale-105 transition hover:text-white shadow-md hover:shadow-2xl hover:shadow-gray-600"
               >
                 Add to Cart <i className="fa-solid fa-cart-shopping"></i>
@@ -505,7 +505,7 @@ function PhoneCard({ AddToCard }) {
           {/* ✅ Same as above — fixes applied */}
           <div className="w-[340px] h-[450px] flex-col justify-between transform hover:scale-105 transition bg-white rounded-2xl shadow-md shadow-gray-500 my-10">
             <img
-              src="src/assets/image copy 11.png"
+              src="public/assets/image copy 11.png"
               className="m-auto py-5 h-1/2"
               alt=""
             />
@@ -526,7 +526,7 @@ function PhoneCard({ AddToCard }) {
             </h1>
             <div className="text-center">
               <button
-               onClick={() => AddToCard("iPhone 17",799,"src/assets/image copy 11.png")}
+               onClick={() => AddToCard("iPhone 17",799,"public/assets/image copy 11.png")}
                 className="w-64 h-12 mt-5 rounded-3xl bg-sky-400 text-black transform hover:scale-105 transition hover:text-white shadow-md hover:shadow-2xl hover:shadow-gray-600"
               >
                 Add to Cart <i className="fa-solid fa-cart-shopping"></i>
@@ -536,7 +536,7 @@ function PhoneCard({ AddToCard }) {
 
           <div className="w-[340px] h-[450px] flex-col justify-between transform hover:scale-105 transition bg-white rounded-2xl shadow-md shadow-gray-500 my-10">
             <img
-              src="src/assets/image copy 8.png"
+              src="public/assets/image copy 8.png"
               className="m-auto py-5 h-1/2"
               alt=""
             />
@@ -559,7 +559,7 @@ function PhoneCard({ AddToCard }) {
             </h1>
             <div className="text-center">
               <button
-                onClick={() => AddToCard("iPhone 17",799,"src/assets/image copy 8.png")}
+                onClick={() => AddToCard("iPhone 17",799,"public/assets/image copy 8.png")}
                 className="w-64 h-12 mt-5 rounded-3xl bg-sky-400 text-black transform hover:scale-105 transition hover:text-white shadow-md hover:shadow-2xl hover:shadow-gray-600"
               >
                 Add to Cart <i className="fa-solid fa-cart-shopping"></i>
