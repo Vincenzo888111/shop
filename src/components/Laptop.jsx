@@ -187,7 +187,7 @@ function Laptop({ AddToCard }) {
                  onClick={() => AddToCard("ASUS TUF Gaming A16 (2024)",1299,"public/assets/image copy 21.png")}
                 className="w-64 h-12 mt-5 rounded-3xl bg-sky-400 text-black  transform hover:scale-105 transition hover:text-white shadow-md  hover:shadow-2xl hover:shadow-gray-600"
               >
-                Add to Cart <i classNames="fa-solid fa-cart-shopping"></i>
+                Add to Cart <i className="fa-solid fa-cart-shopping"></i>
               </button>
             </div>
           </div>
@@ -215,7 +215,7 @@ function Laptop({ AddToCard }) {
                   onClick={() => AddToCard(" ASUS TUF Gaming A15 (2024)",1299,"public/assets/image copy 22.png")}
                 className="w-64 h-12 mt-5 rounded-3xl bg-sky-400 text-black  transform hover:scale-105 transition hover:text-white shadow-md  hover:shadow-2xl hover:shadow-gray-600"
               >
-                Add to Cart <i class="fa-solid fa-cart-shopping"></i>
+                Add to Cart <i className="fa-solid fa-cart-shopping"></i>
               </button>
             </div>
           </div>
